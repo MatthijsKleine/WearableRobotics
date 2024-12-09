@@ -1,108 +1,67 @@
-/* General Styles */
 body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
-}
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+    }
 
-h1, h2, h3 {
-  margin: 0;
-  font-family: 'Georgia', serif;
-  color: #222;
-}
+    .hero {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
 
-/* Header Section */
-.main-header {
-  text-align: center;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
-  color: white;
-  padding: 50px 20px;
-}
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
 
-.main-header h1 {
-  font-size: 2.8rem;
-  margin-bottom: 10px;
-}
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
 
-.main-header p {
-  font-size: 1.2rem;
-  margin-top: 10px;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
+    .theme-card {
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
 
-/* About Section */
-.about-section {
-  text-align: center;
-  background-color: #fff;
-  padding: 40px 20px;
-  margin: 20px auto;
-  border-radius: 8px;
-  max-width: 800px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
+    .theme-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
 
-.about-section h2 {
-  margin-bottom: 15px;
-  font-size: 2rem;
-}
+    .theme-card h3 {
+      font-size: 1.5rem;
+    }
 
-.about-section p {
-  line-height: 1.8;
-  font-size: 1.1rem;
-}
+    .btn-theme {
+      background: linear-gradient(135deg, #0f2027, #2c5364);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      transition: background-color 0.3s;
+    }
 
-/* Portal Links Section */
-.portal-section {
-  padding: 40px 20px;
-  background-color: #f4f4f4;
-}
+    .btn-theme:hover {
+      background-color: #1e6cfb;
+    }
 
-.portal-section h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 2rem;
-}
+    footer {
+      background-color: #282c34;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.9rem;
+    }
 
-.theme-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
+    footer a {
+      color: #6a11cb;
+      text-decoration: none;
+    }
 
-.theme {
-  background-color: #ffffff;
-  padding: 20px;
-  width: 300px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.theme:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
-
-.theme h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  color: #444;
-}
-
-.theme p {
-  font-size: 1rem;
-  margin-bottom: 20px;
-  line-height: 1.6;
-}
-
-.portal-link {
-  display: inline-block;
-  padding: 10px 20px;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
-  color: wh
+    footer a:hover {
+      text-decoration: underline;
+    }
